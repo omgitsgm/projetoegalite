@@ -1,0 +1,278 @@
+html, body{
+    margin: 0;
+    background-color: black;
+}
+section{
+    padding-right: 10%;
+    padding-left: 10%;
+    float: left;
+}
+header{
+    background-color: #111111;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+li{
+    float: left;
+    padding: 20 15 20 15;
+}
+li:hover{
+    background-color: #0281af;
+}
+footer{
+    color: #f3f3f3;
+    background-color: #111111;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.centralizado{
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
+.img{
+    width: 100%;
+    height: 40%;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width:40%;
+}
+.tres{
+    width: 23%;
+    padding: 0 5%;
+}
+.quatro{
+    width:20%;
+    padding: 0 2%;
+}
+.link-menu{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+.link{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#f3f3f3;
+    font-style: italic;
+    text-decoration: underline;
+}
+.icone{
+    width: 90px;
+    height: 90px;
+}
+
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 3px;
+    margin-left: 1%;
+}
+
+#menu{
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+#pagina_inicial{
+    background: url(img/background.jpg);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#titulo{
+    color: #f3f3f3;
+    padding-top: 20%;
+    margin-bottom: 0px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+#subtitulo{
+    color: #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+#acao{
+    color: #f3f3f3;
+    padding: 5 10 5 10;
+    border: 3px solid #f3f3f3;
+    margin-top: 45px; 
+    font-size: 20px;
+    text-decoration: none;
+}
+#acao:hover{
+    background-color: #0281af;
+}
+
+#projeto{
+    color: #f3f3f3;
+    background-color: black;
+    padding-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+#egalite{
+    padding-top: 50px;
+    border-bottom: 2px solid #0281af;
+}
+#video{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #0281af;   
+}
+
+#objetivos{
+    color: #f3f3f3;
+    background-color: black;
+    padding-top: 50px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+#titulo_objetivo{
+    padding-bottom: 5%;
+}
+#primeiralinha{
+    padding-bottom: 30%;
+}
+#segundalinha{
+    padding-top: 40px;
+    padding-bottom: 30%;
+}
+#terceiralinha{
+    padding-top: 40px;
+}
+
+#referencia_objetivos{
+    padding-top: 450px;
+}
+
+#vcsabia{
+    color: #f3f3f3;
+    background-color: black;
+    padding-top: 50px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+#titulo-vcsabia{
+    padding-top: 30px ;
+    border-top: 2px solid #0281af;
+}
+#primeira_linha{
+    padding-top: 5%;
+    padding-bottom: 30%;
+}
+#segunda_linha{
+    padding-top: 40px;
+}
+#referencia_vcsabia{
+    padding-top: 450px;
+}
+
+#sobremim{
+    color: #f3f3f3;
+    background-color: black;
+    padding-top: 50px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+#titulo_sobremim{
+    border-top: 2px solid #0281af;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#logo-footer{
+    padding-top: 25px;
+    width: 96px;
+    top: 3px;
+    margin-left: 1%;
+}
+
+#footer-content{
+    float:right;
+    text-align: right;
+    padding-right: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 14px;
+}
+
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #referencia_objetivos{
+        padding-top: 30px;
+    }
+    #referencia_vcsabia{
+        padding-top: 30px;
+    }
+    #titulo{
+        padding-top: 50%;
+    }
+    #egalite{
+        padding-top: 0px;
+    }
+    #iframevideo{
+        width: 100%;
+        height: 45%;
+    }
+    #primeiralinha{
+        padding-top: 5%;
+        padding-bottom: 0px;
+    }
+    #segundalinha{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #terceiralinha{
+        padding-top: 0px;
+    }
+    #objetivo1, #objetivo2, #objetivo3, #objetivo4, #objetivo5, #objetivo6, #objetivo7, #objetivo8, #objetivo9, #objetivo10{
+        padding-bottom: 40px;
+    }
+    #primeira_linha{
+        padding-top: 5%;
+        padding-bottom: 0px;
+    }
+    #segunda_linha{
+        padding-top: 0px;
+    }
+    #curiosidade1, #curiosidade2, #curiosidade3, #curiosidade4, #curiosidade5, #curiosidade6{
+        padding-bottom: 40px;
+    }
+}
